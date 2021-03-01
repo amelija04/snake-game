@@ -1,21 +1,7 @@
 # snake-game
 In this tutorial we will explain how this game works. It consists multiple code files.
-The game we will be building is a simple Snake game. In this game you control an ever growing snake. You turn the snake head left and right and try to avoid the head hitting the rest of the body or screen borders.
+The game we will be building is a simple Snake game. In this game you control an ever growing snake. You turn the snake head left, right, up and down and try to avoid the head hitting the rest of the body or screen borders, because that means the game is over.
 
-First, we will set the screen size, in file Main.java.
-setSize(800, 600);
 
-In files Direction.java and Point.java we set the movement of snake. She can move up, down, left and right.
-    public boolean isX() {
-        return this == LEFT || this == RIGHT;
-    }
-    
-    public boolean isY() {
-        return this == UP || this == DOWN;
-    }
-    
-    case UP: this.y -= value; break;
-    case DOWN: this.y += value; break;
-    case RIGHT: this.x += value; break;
-    case LEFT: this.x -= value; break;
+
     
