@@ -1,7 +1,0 @@
-# snake-game
-In this tutorial we will explain how this game works. It consists multiple code files.
-The game we will be building is a simple Snake game. In this game you control an ever growing snake. You turn the snake head left, right, up and down and try to avoid the head hitting the rest of the body or screen borders, because that means the game is over.
-
-
-
-    
